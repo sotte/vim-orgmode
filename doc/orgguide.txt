@@ -208,6 +208,7 @@ Inline markup~
 
 ------------------------------------------------------------------------------
 Activation~
+
   Add the following line to your .vimrc file to ensure that filetype plugins
   are loaded properly:
 >
@@ -378,17 +379,12 @@ Motion~
                                                                *orgguide-motion*
   The following commands jump to other headlines in the buffer.
 
-  }                     Next heading.
-
-  {                     Previous heading.
-
-  ]]                    Next heading same level.
-
-  [[                    Previous heading same level.
-
-  g{                    Backward to higher level heading.
-
-  g}                    Forward to higher level heading.
+    }                   - Next heading.
+    {                   - Previous heading.
+    ]]                  - Next heading same level.
+    [[                  - Previous heading same level.
+    g{                  - Backward to higher level heading.
+    g}                  - Forward to higher level heading.
 
 ------------------------------------------------------------------------------
 Structure editing~
@@ -438,7 +434,7 @@ Structure editing~
                         same level).
 
   Not yet implemented in vim-orgmode~
-  C-c C-w                Refile entry or region to a different location. See
+  C-c C-w               Refile entry or region to a different location. See
                         section [[#Refiling-notes][Refiling notes]].
 
                                                            *orgguide-<Leader>nr*

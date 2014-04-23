@@ -207,21 +207,6 @@ Inline markup~
   Ref: http://orgmode.org/manual/Emphasis-and-monospace.html
 
 ------------------------------------------------------------------------------
-Installation~
-  Download the latest stable release at
-  http://www.vim.org/scripts/script.php?script_id=3642
-
-  Open the vimball archive in vim and source it.
-
-  $ vim orgmode.vba
->
-    :so %
-<
-
-  ATTENTION: All .pyc files of former versions of vim-orgmode need to be
-  deleted beforehand!
-
-------------------------------------------------------------------------------
 Activation~
   Add the following line to your .vimrc file to ensure that filetype plugins
   are loaded properly:
@@ -239,6 +224,15 @@ Activation~
 
 ------------------------------------------------------------------------------
 Suggested plugins~
+
+  pathogen~
+    (http://www.vim.org/scripts/script.php?script_id=2332)
+    Easy management of multiple vim plugins.
+
+  Vundle~
+    (https://github.com/gmarik/Vundle.vim)
+    Easy management of multiple vim plugins.
+
   Universal Text Linking~
     (http://www.vim.org/scripts/script.php?script_id=293) general support for
     text linking. The hyperlinks feature of vim-orgmode depends on this plugin.
@@ -268,10 +262,6 @@ Suggested plugins~
     (http://www.vim.org/scripts/script.php?script_id=3075)
     Emulation of Emacs' Narrow Region feature. It might be useful when dealing
     with large orgmode files.
-
-  pathogen~
-    (http://www.vim.org/scripts/script.php?script_id=2332)
-    Easy management of multiple vim plugins.
 
   calendar~
     (http://www.vim.org/scripts/script.php?script_id=52)
